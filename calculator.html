@@ -11,6 +11,10 @@
 		var num = document.getElementById("n1");
 		num.value = Math.sin(num.value);
 	}
+	function quadruple() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 4);
+	}
 </script>
 
 </head>
@@ -25,6 +29,7 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="sine()"> sin(x) </button>
+<button onclick="quadruple()"> x^4 </button>
 
 </body>
 
